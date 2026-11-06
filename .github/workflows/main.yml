@@ -1,0 +1,71 @@
+Aquí tienes una estructura básica en **HTML, sin CSS**, para que completes con el contenido de tu página:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descripción de tu página web">
+  <title>Mi página web</title>
+</head>
+<body>
+  <header>
+    <h1>Nombre de tu página</h1>
+
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenido a mi página</h2>
+      <p>Una breve presentación de lo que ofreces.</p>
+      <a href="#contacto">Contáctame</a>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Cuenta quién eres y cuál es tu experiencia.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Mis servicios</h2>
+
+      <article>
+        <h3>Primer servicio</h3>
+        <p>Descripción del servicio.</p>
+      </article>
+
+      <article>
+        <h3>Segundo servicio</h3>
+        <p>Descripción del servicio.</p>
+      </article>
+
+      <article>
+        <h3>Tercer servicio</h3>
+        <p>Descripción del servicio.</p>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        Escríbeme a:
+        <a href="mailto:tu@correo.com">tu@correo.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nombre de tu página. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+```
